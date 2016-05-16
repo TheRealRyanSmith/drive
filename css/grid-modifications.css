@@ -1,0 +1,70 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "-apple-system", Avenir, "Avenir Next", Helvetica, Arial, sans-serif;
+  color: #4a4a4a;
+  background-color: #f2f5f9;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 3.125em 0;
+  max-width: 50em; /*16 * 50 = 800*/
+  margin: 0 auto;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.5625em;
+  padding: 0 32px;
+}
+p {
+  margin-top: 1.5625em;
+}
+h2 {
+  margin-top: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.09765625em;
+}
+img {
+  margin: 0;
+  width: 100%;
+  border: 1px solid #ebf1f7;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 2em 0 0;
+  padding: 0;
+  line-height: 3.125em;
+}
+
+ul {
+  margin: 0.78125em 0 0 32px;
+  padding: 0;
+}
+a {
+  color: #08749B;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.092em;
+  padding-bottom: 2em;
+  border-bottom: 2px soild #08749B;
+}
+/*a:hover {
+  border-bottom: 2px soild #08749B;
+}*/
+
+
+
+
+
+
+
+
+
